@@ -1,8 +1,8 @@
 function [apex,a,b]=rectTriangle1(apex,a,b,r)
 %%% renvoie les trois sommets en complexe du triangle rectangle carcatérisé
 %%% par la position de ses sommet et du ratio de longueur des côtés
-%%% adjacent à l'angle droite. Si un 2 des paramètres sont manquants ils
-%%% sont calculés
+%%% adjacent à l'angle droite. Si un 3 des paramètres est manquant il
+%%% est calculé
 
 if isempty(apex)
     s=1/(1+r^2);
